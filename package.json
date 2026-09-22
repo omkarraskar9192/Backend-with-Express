@@ -1,0 +1,28 @@
+{
+  "name": "01mainproject",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "backend",
+    "chai",
+    "cyberking",
+    "omkar",
+    "king",
+    "cyber"
+  ],
+  "license": "ISC",
+  "author": "Omkar Raskar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^17.4.2",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4"
+  }
+}
